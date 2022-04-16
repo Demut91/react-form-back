@@ -7,7 +7,7 @@ export class Message extends BaseEntity {
     id: number;
 
     @Column()
-    username: string;
+    name: string;
 
     @Column()
     email: string;
@@ -15,10 +15,10 @@ export class Message extends BaseEntity {
     @Column()
     text: string;
 
-    constructor(username: string, email: string, text: string, id?: number) {
+    constructor(name: string, email: string, text: string, id?: number) {
         super();
         this.id = id;
-        this.username = username;
+        this.name = name;
         this.email = email;
         this.text = text;
     }
