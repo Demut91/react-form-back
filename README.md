@@ -1,27 +1,7 @@
-# Nestjs project
+# Nest.js + MySql
+Приложение для получения данных из формы и сохранения их в БД
 
-## Running the app
+## API:
 
-```bash
-# development
-$ npm run start
+http://82.202.168.156:3000
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
